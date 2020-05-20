@@ -2,10 +2,10 @@
 #
 # SPDX-License-Identifier: MIT
 
-import pulseio
-import board
 import time
 
+import board
+import pulseio
 import waveform
 
 pwm = pulseio.PWMOut(board.D5, frequency=152000)
